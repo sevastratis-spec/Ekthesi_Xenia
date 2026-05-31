@@ -1,0 +1,167 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css');
+
+body {
+    background-color: #fdfbf7; 
+    color: #3d2b2a;            
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.topikes-eikones, .topika-vinteo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.topikes-eikones .eikona-ekthematos, .plaisio-topiko-vinteo {
+    flex: 1 1 100%;
+}
+
+.plaisio-topiko-vinteo video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #f7f1e6; 
+    box-shadow: 0 4px 12px rgba(138, 34, 25, 0.1); 
+}
+
+.eikona-ekthematos {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #f7f1e6; 
+    box-shadow: 0 4px 12px rgba(138, 34, 25, 0.1);
+}
+
+.dilosi-ergasias {
+    background-color: #ffcc00; 
+    color: #000000;
+    text-align: center;
+    padding: 12px 10px;
+    font-weight: bold;
+    font-size: 1.05rem;
+    border-bottom: 2px solid #dbb000;
+}
+
+.kefalida {
+    background-color: #8a2219; 
+    color: #ffffff;
+    text-align: center;
+    padding: 70px 20px;
+    border-bottom: 5px solid #6b1a13; 
+}
+
+.kefalida h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.kefalida p {
+    color: #fdfbf7; 
+    font-size: 1.2rem;
+}
+
+.menou {
+    background-color: #6b1a13 !important; 
+    border-bottom: 3px solid #4d120d;
+}
+
+.sindesos-menou {
+    color: #fdfbf7 !important; 
+    font-weight: bold;
+}
+
+.sindesos-menou:hover {
+    color: #f7f1e6 !important; 
+}
+
+.periexomeno {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.periexomeno h2 {
+    color: #8a2219; 
+    border-bottom: 2px solid #f7f1e6;
+    padding-bottom: 8px;
+}
+
+.enotita-sxetika {
+    flex: 1 1 350px; 
+}
+
+.enotita-iframes {
+    flex: 2 1 650px;
+}
+
+.plegma-iframes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.karta-iframe {
+    background: #ffffff; 
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #f7f1e6; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.karta-iframe h3 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 0;
+    color: #8a2219; 
+}
+
+.plaisio-iframe {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+}
+
+.plaisio-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 4px;
+}
+
+.enotita-epikoinonia {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    background-color: #f7f1e6; 
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-top: 2px solid #eadecc;
+}
+
+.koumpi-facebook {
+    display: inline-block;
+    color: #8a2219 !important; 
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 15px;
+    transition: color 0.2s ease;
+}
+
+.koumpi-facebook:hover {
+    color: #6b1a13 !important; 
+    text-decoration:
